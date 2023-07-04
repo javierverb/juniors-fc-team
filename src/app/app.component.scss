@@ -1,8 +1,11 @@
-.title {
-  color: white;
-  font-size: 4rem;
-}
 .pozito {
   height: 300px;
   width: 300px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .pozito-container {
+    flex-direction: column;
+  }
 }

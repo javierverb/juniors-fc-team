@@ -1,0 +1,23 @@
+.stats {
+  align-self: center;
+  color: white;
+  img {
+    background-color: white;
+    max-width: 50px;
+    max-height: 50px;
+  }
+  .stat-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    &:last-child {
+      border-bottom: none;
+    }
+    .stat-name {
+      font-weight: bold;
+    }
+  }
+}

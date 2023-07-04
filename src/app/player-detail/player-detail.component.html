@@ -1,0 +1,24 @@
+<div class="container-fluid">
+  <h1 class="h-title">{{ playerDetail.name }}</h1>
+  <div class="row">
+    <img
+      class="team-member col-12 col-sm-4"
+      [src]="playerDetail.imagePath"
+      alt=""
+    />
+    <div class="stats col-12 col-sm-6 d-flex flex-column">
+      <div class="stat-detail">
+        <img src="assets/images/stats/beer.png" alt="" />
+        <p>{{ playerDetail.beers }}</p>
+      </div>
+      <div class="stat-detail">
+        <img src="assets/images/stats/run.png" alt="" />
+        <p>{{ playerDetail.runs }}</p>
+      </div>
+      <div class="stat-detail">
+        <img src="assets/images/stats/pub.png" alt="" />
+        <p>{{ playerDetail.pubs }}</p>
+      </div>
+    </div>
+  </div>
+</div>

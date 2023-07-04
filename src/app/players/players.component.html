@@ -1,0 +1,13 @@
+<h1 class="h-title">Nuestros jugadores</h1>
+<div class="container-fluid">
+  <div class="d-flex flex-wrap">
+    <ng-container *ngFor="let player of players">
+      <img
+        [routerLink]="['/team/detail', player.id]"
+        class="team-member"
+        [src]="player.imagePath"
+        alt="team-member"
+      />
+    </ng-container>
+  </div>
+</div>
