@@ -217,6 +217,14 @@ const players = [
   },
   {
     id: 28,
+    name: 'Pablo Figueroa',
+    imagePath: 'assets/images/team/pablo_figueroa.png',
+    beers: 70,
+    runs: 95,
+    pubs: 70,
+  },
+  {
+    id: 29,
     name: 'Pedro',
     imagePath: 'assets/images/team/pedro.png',
     beers: 85,
@@ -224,7 +232,15 @@ const players = [
     pubs: 80,
   },
   {
-    id: 29,
+    id: 30,
+    name: 'Quimey',
+    imagePath: 'assets/images/team/quimey.png',
+    beers: 89,
+    runs: 89,
+    pubs: 80,
+  },
+  {
+    id: 31,
     name: 'Santiago B.',
     imagePath: 'assets/images/team/santiago_b.png',
     beers: 70,
