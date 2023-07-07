@@ -219,7 +219,7 @@ const players = [
     id: 28,
     name: 'Pablo Figueroa',
     imagePath: 'assets/images/team/pablo_figueroa.png',
-    beers: 88,
+    beers: 70,
     runs: 95,
     pubs: 70,
   },
