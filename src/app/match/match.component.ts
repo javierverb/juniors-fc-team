@@ -27,11 +27,21 @@ export class MatchComponent implements OnInit {
     return selectedPlayers.length >= 10;
   }
 
+  get totalPlayersSelected(): number {
+    const selectedPlayers = this.playersToSelect.filter(
+      (player: any) => player.selected
+    );
+    return selectedPlayers.length;
+  }
+
   _buildTemplate(players: any): string {
     let template = '';
     players.forEach((player: any) => {
       template += `.${player.name} ${player.weight}\n`;
     });
+    if (players.length % 2 !== 0) {
+      template += `.Desconocido 0\n`;
+    }
     return template;
   }
 
