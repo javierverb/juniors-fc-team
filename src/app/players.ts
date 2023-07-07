@@ -6,6 +6,7 @@ const players = [
     beers: 70,
     runs: 80,
     pubs: 70,
+    weight: 2,
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const players = [
     beers: 90,
     runs: 80,
     pubs: 96,
+    weight: 2,
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ const players = [
     beers: 90,
     runs: 90,
     pubs: 99,
+    weight: 1,
   },
   {
     id: 4,
@@ -30,6 +33,7 @@ const players = [
     beers: 90,
     runs: 90,
     pubs: 90,
+    weight: 2,
   },
   {
     id: 5,
@@ -38,6 +42,7 @@ const players = [
     beers: 90,
     runs: 90,
     pubs: 99,
+    weight: 1,
   },
   {
     id: 6,
@@ -46,6 +51,7 @@ const players = [
     beers: 70,
     runs: 80,
     pubs: 70,
+    weight: 2,
   },
   {
     id: 7,
@@ -54,6 +60,7 @@ const players = [
     beers: 80,
     runs: 87,
     pubs: 90,
+    weight: 2,
   },
   {
     id: 8,
@@ -62,6 +69,7 @@ const players = [
     beers: 70,
     runs: 90,
     pubs: 70,
+    weight: 1,
   },
   {
     id: 9,
@@ -70,6 +78,7 @@ const players = [
     beers: 70,
     runs: 88,
     pubs: 70,
+    weight: 1,
   },
   {
     id: 10,
@@ -78,6 +87,7 @@ const players = [
     beers: 70,
     runs: 90,
     pubs: 70,
+    weight: 1,
   },
   {
     id: 11,
@@ -86,6 +96,7 @@ const players = [
     beers: 88,
     runs: 90,
     pubs: 70,
+    weight: 1,
   },
   {
     id: 12,
@@ -94,6 +105,7 @@ const players = [
     beers: 70,
     runs: 90,
     pubs: 75,
+    weight: 2,
   },
   {
     id: 13,
@@ -102,6 +114,7 @@ const players = [
     beers: 80,
     runs: 90,
     pubs: 80,
+    weight: 2,
   },
   {
     id: 14,
@@ -110,6 +123,7 @@ const players = [
     beers: 70,
     runs: 80,
     pubs: 70,
+    weight: 2,
   },
   {
     id: 15,
@@ -118,6 +132,7 @@ const players = [
     beers: 70,
     runs: 80,
     pubs: 70,
+    weight: 2,
   },
   {
     id: 16,
@@ -126,6 +141,7 @@ const players = [
     beers: 70,
     runs: 90,
     pubs: 70,
+    weight: 1,
   },
   {
     id: 17,
@@ -134,6 +150,7 @@ const players = [
     beers: 70,
     runs: 90,
     pubs: 70,
+    weight: 1,
   },
   {
     id: 18,
@@ -142,6 +159,7 @@ const players = [
     beers: 70,
     runs: 82,
     pubs: 70,
+    weight: 2,
   },
   {
     id: 19,
@@ -150,6 +168,7 @@ const players = [
     beers: 90,
     runs: 88,
     pubs: 90,
+    weight: 2,
   },
   {
     id: 20,
@@ -158,6 +177,7 @@ const players = [
     beers: 70,
     runs: 90,
     pubs: 70,
+    weight: 1,
   },
   {
     id: 21,
@@ -166,6 +186,7 @@ const players = [
     beers: 88,
     runs: 92,
     pubs: 88,
+    weight: 1,
   },
   {
     id: 22,
@@ -174,6 +195,7 @@ const players = [
     beers: 70,
     runs: 87,
     pubs: 70,
+    weight: 2,
   },
   {
     id: 23,
@@ -182,6 +204,7 @@ const players = [
     beers: 70,
     runs: 96,
     pubs: 70,
+    weight: 1,
   },
   {
     id: 24,
@@ -190,6 +213,7 @@ const players = [
     beers: 95,
     runs: 89,
     pubs: 88,
+    weight: 1,
   },
   {
     id: 25,
@@ -198,6 +222,7 @@ const players = [
     beers: 80,
     runs: 80,
     pubs: 70,
+    weight: 2,
   },
   {
     id: 26,
@@ -206,6 +231,7 @@ const players = [
     beers: 70,
     runs: 89,
     pubs: 70,
+    weight: 2,
   },
   {
     id: 27,
@@ -214,6 +240,7 @@ const players = [
     beers: 90,
     runs: 92,
     pubs: 80,
+    weight: 1,
   },
   {
     id: 28,
@@ -222,6 +249,7 @@ const players = [
     beers: 70,
     runs: 95,
     pubs: 70,
+    weight: 2,
   },
   {
     id: 29,
@@ -230,6 +258,7 @@ const players = [
     beers: 85,
     runs: 89,
     pubs: 80,
+    weight: 2,
   },
   {
     id: 30,
@@ -238,6 +267,7 @@ const players = [
     beers: 89,
     runs: 89,
     pubs: 80,
+    weight: 1,
   },
   {
     id: 31,
@@ -246,6 +276,7 @@ const players = [
     beers: 70,
     runs: 89,
     pubs: 70,
+    weight: 1,
   },
 ];
 

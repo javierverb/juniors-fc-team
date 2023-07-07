@@ -1,0 +1,51 @@
+<div class="w-100 ms-3 my-3">
+  <button [routerLink]="['/']" class="btn btn-primary">Atrás</button>
+</div>
+<h1 class="h-title mb-5">Armar equipos</h1>
+<div class="container-fluid">
+  <div class="row">
+    <ul class="team-names list-group col-5 text-left mx-auto">
+      <li class="list-group-item">
+        <input
+          class="w-100"
+          type="text"
+          [(ngModel)]="term"
+          placeholder="Buscar"
+        />
+      </li>
+      <li
+        (click)="selectedPlayer = player"
+        [ngClass]="{ active: selectedPlayer && player.id == selectedPlayer.id }"
+        class="list-group-item d-flex"
+        *ngFor="let player of players | filter : term; index as i"
+      >
+        <span class="name">
+          {{ player.name }}
+        </span>
+        <input
+          class="form-check-input ms-auto"
+          type="checkbox"
+          [(ngModel)]="playersToSelect[i].selected"
+        />
+      </li>
+    </ul>
+    <div class="col-6" *ngIf="selectedPlayer">
+      <img
+        [routerLink]="['/team/detail', selectedPlayer.id]"
+        [queryParams]="{ origin: 'match' }"
+        class="team-member"
+        [src]="selectedPlayer.imagePath"
+        alt="team-member"
+      />
+    </div>
+    <div class="d-flex">
+      <button
+        (click)="buildTeams()"
+        [disabled]="!canWeBuildATeam()"
+        class="mt-5 mx-auto btn btn-primary"
+      >
+        Armar equipos
+      </button>
+    </div>
+  </div>
+</div>

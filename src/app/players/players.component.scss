@@ -4,3 +4,10 @@
   margin-right: auto;
   cursor: pointer;
 }
+
+// media query for mobile devices
+@media screen and (max-width: 600px) {
+  .team-member {
+    width: 150px;
+  }
+}

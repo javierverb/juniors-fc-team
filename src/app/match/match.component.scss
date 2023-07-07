@@ -1,0 +1,28 @@
+.team-member {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.team-names {
+  height: 50vh;
+  overflow-y: scroll;
+}
+
+@media screen and (min-width: 600px) {
+  .team-member {
+    width: 400px;
+  }
+}
+
+.team-names {
+  .name {
+    cursor: pointer;
+  }
+}
+input[type="checkbox"] {
+  /* Adjust the width and height values as per your desired size */
+  width: 20px;
+  height: 20px;
+}

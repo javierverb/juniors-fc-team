@@ -5,16 +5,20 @@
   font-weight: normal;
   font-style: normal;
 }
+html {
+  width: 100%;
+}
 
 body {
-  background: rgb(15, 14, 98);
   background: linear-gradient(
     108deg,
     rgba(15, 14, 98, 1) 0%,
     rgba(12, 14, 98, 1) 59%,
     rgba(195, 39, 127, 1) 100%
   );
+  background-size: cover;
   height: 100vh;
+  width: 100vw;
   font-family: "Lustra" !important;
 }
 
