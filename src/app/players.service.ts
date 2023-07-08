@@ -27,15 +27,9 @@ export class PlayersService {
   }
 
   buildTeam(players: any) {
-    //  allow cors
-    const headers = {
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS',
-      'Access-Control-Allow-Headers': '*',
-    };
     const body = this.buildBody(players);
     const url =
       'https://o8v1n39p98.execute-api.us-east-1.amazonaws.com/dev/web';
-    return this.http.post(url, body, { headers });
+    return this.http.post(url, body);
   }
 }
