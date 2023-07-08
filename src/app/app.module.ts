@@ -3,6 +3,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { BaseComponent } from './base/base.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 import { MatchComponent } from './match/match.component';
 import { Ng2SearchPipe } from './ng2-search-pipe.pipe';
 import { NgModule } from '@angular/core';
@@ -18,7 +19,7 @@ import { PlayersComponent } from './players/players.component';
     MatchComponent,
     Ng2SearchPipe,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
   bootstrap: [BaseComponent],
 })
