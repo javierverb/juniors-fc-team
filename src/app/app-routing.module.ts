@@ -16,10 +16,18 @@ const routes: Routes = [
     loadChildren: () =>
       import('./p2p-game/p2p-game.module').then((m) => m.P2pGameModule),
   },
+  {
+    path: '**',
+    redirectTo: '/main',
+  },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    RouterModule.forRoot(routes, {
+      useHash: true,
+    }),
+  ],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}
