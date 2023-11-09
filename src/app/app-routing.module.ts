@@ -11,6 +11,11 @@ const routes: Routes = [
   { path: 'team', component: PlayersComponent },
   { path: 'team/detail/:id', component: PlayerDetailComponent },
   { path: 'match', component: MatchComponent },
+  {
+    path: 'game',
+    loadChildren: () =>
+      import('./p2p-game/p2p-game.module').then((m) => m.P2pGameModule),
+  },
 ];
 
 @NgModule({
